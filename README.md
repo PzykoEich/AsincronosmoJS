@@ -1,0 +1,2 @@
+# AsincronosmoJS
+Clase de asincronismo
