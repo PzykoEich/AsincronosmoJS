@@ -1,0 +1,19 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "Clase de asincronismo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PzykoEich/AsincronosmoJS.git"
+  },
+  "author": "Martin ocampo <pzykoh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PzykoEich/AsincronosmoJS/issues"
+  },
+  "homepage": "https://github.com/PzykoEich/AsincronosmoJS#readme"
+}
