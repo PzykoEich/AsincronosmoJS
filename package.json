@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PzykoEich/AsincronosmoJS/issues"
   },
-  "homepage": "https://github.com/PzykoEich/AsincronosmoJS#readme"
+  "homepage": "https://github.com/PzykoEich/AsincronosmoJS#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
