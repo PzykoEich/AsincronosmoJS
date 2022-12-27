@@ -23,6 +23,7 @@ fetchData(`${API}/products`, function(error1, data1){
     if(error2) console.error(error2);
     fetchData(`${API}/categories/${data2.category?.id}`, function(error3, data3){
       if(error3) console.error(error3);
+      console.log(`ID: ${data1[0].id} Title: ${data1[0].title} Category: ${data1[0].category.name}`)
       console.log(data1[0]);
       console.log(data2.title);
       console.log(data3.name);
