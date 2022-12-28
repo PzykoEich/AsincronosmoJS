@@ -4,19 +4,22 @@
   "description": "Clase de asincronismo",
   "main": "index.js",
   "scripts": {
+    "promise": "node promise/challenge.js",
     "callback": "node challenge.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PzykoEich/AsincronosmoJS.git"
   },
-  "author": "Martin ocampo <pzykoh@gmail.com>",
+  "author": "Martin Ocampo <pzykoh@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/PzykoEich/AsincronosmoJS/issues"
   },
   "homepage": "https://github.com/PzykoEich/AsincronosmoJS#readme",
   "dependencies": {
+    "node-fetch": "^3.3.0",
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "type": "module"
 }
