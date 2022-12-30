@@ -18,7 +18,8 @@ fetchData(`${API}/products`)
 
 
 
-fetchData(`${API}/products`).then(response => response.json())
+fetchData(`${API}/products`)
+  .then(response => response.json())
   .then(products => {
     return fetchData(`${API}/products/${products[0].id}`)
   })
@@ -28,6 +29,6 @@ fetchData(`${API}/products`).then(response => response.json())
   })
   .then(response => response.json())
   .then(category => {
-    console.log(category);
+    console.log(category.name);
   })
   .catch(error => console.error(error));
