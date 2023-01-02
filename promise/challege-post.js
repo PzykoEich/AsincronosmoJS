@@ -17,14 +17,14 @@ function postData(urlApi, data){
 
 const data = {
   'title': 'Pokemon',
-  'Price': 50,
+  'price': 550,
   'description': 'Pokemon toy',
-  'category': 1,
-  'image': [ "http://placeimg.com/640/480/any"]
+  'categoryId': 1,
+  'images': [ "http://placeimg.com/640/480/any"]
 }
 
 postData(`${API}/products`, data)
-  .then(response => response.JSON())
+  .then(response => response.json())
   .then(data => {
     console.log(data)
   });
